@@ -1,13 +1,14 @@
 [tool.poetry]
-name = "wbx-tools"
+name = "wbx_tools"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["CaptainBloodborne <vrail30@gmail.com>"]
 readme = "README.md"
 packages = [{include = "wbx_tools"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.11"
+requests = "^2.31.0"
 
 
 [build-system]
